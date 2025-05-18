@@ -8,7 +8,7 @@ from chromadb.utils import embedding_functions
 import time
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyAkdFOq1j6Gl2bbbwMhzldHq5VkxCAyE1Q")
+genai.configure(api_key="Api_key")
 model = genai.GenerativeModel("gemini-1.5-pro")
 
 # Path to documents
